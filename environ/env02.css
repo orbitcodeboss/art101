@@ -1,0 +1,59 @@
+BODY { background:color-mix(in srgb, rgb(211, 42, 42)  38%, rgb(170, 144, 49) 70%)}
+    BODY {background:}
+.high01 {color:red}
+.high01 {background-color: rgb(255, 255, 255);}
+#prebub {width: 500px;} 
+#bub {width: 80px;} 
+BODY { background-image:radial-gradient(100)}
+
+.container{position: relative;}
+.container img{width: 400px;
+    padding-left:80px
+    display:block;
+}
+.container h1 {
+    position:absolute;
+  padding-left:100px ;
+
+
+}
+
+   
+.container img
+{position: absolute;}
+
+#crabbish {width:500px;
+padding-top:150px;
+padding-right:100px;}
+
+.container h2
+{position: absolute;}
+#h2 {padding-bottom: 100px;}
+
+#kurt {width: 80px;
+padding-left:530px;}
+#kurt2 {width: 40px;}
+
+#shrimpy {width: 250px;
+padding-right: 150px ;}
+
+.container2 img
+{position: absolute;
+padding-left: 350px;
+padding: top 180px; ;}
+
+#bubbles2 {
+    padding-left: 600px;
+    width: 300px;
+}
+
+.navi {
+display: flex;
+gap: 20px;
+}
+
+.kurttainer img{
+    position: relative;
+    padding-top: 80px;
+}
+

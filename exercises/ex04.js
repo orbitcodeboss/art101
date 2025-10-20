@@ -1,28 +1,18 @@
-let totalNumber = 0;
+let count = 0;
+let colors = ["Orchid", "Coral", "HotPink", "Plum"]; // new line tp add
 
-// add a button titled "click me"
+$("#needy-button").click(function () {
 
-$("#greedy-button").click (function(){
+    let reminder=count % colors.length; 
 
-totalNumber = totalNumber + 2 ;
+    $("#needy-button").html( "Clicks: " + count + " Color: " 
+        + colors[count]); 
 
-let sentence = "You really messed up ";
-let sentencetwo = " farting times"
+   $("body").css
+("background-color", colors[reminder]);
 
-let totalNumbers= sentence+ totalNumber + sentencetwo;
-
-$("#greedy-button").html(totalNumbers);
-
+    count = count + 1;
 
 
 });
-
-// show many times it's been clicked
-// add one to the total number
-// show the total number
-// on our button 
-
-// show "clicked total number of times"
-
-// add a top limit
 

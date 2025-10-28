@@ -27,7 +27,6 @@ $(document).ready(function() {
     });
      if (i === 77) {
       $img.on('click', function() {
-        // When clicked, change text on the page
         $('#text1').text('you caught the homer');
       });
     }

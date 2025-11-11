@@ -1,0 +1,12 @@
+#creature-form {
+    background: cadetblue;
+    padding: 40px;
+    margin: 18px;
+}
+
+#creature-list {
+background: red;
+display: flex;
+flex-wrap: wrap;
+margin: 18px;
+}
